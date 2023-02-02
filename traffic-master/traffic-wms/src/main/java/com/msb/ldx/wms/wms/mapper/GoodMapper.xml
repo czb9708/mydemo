@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.msb.ldx.wms.wms.mapper.GoodMapper">
+<insert id="adds" parameterType="com.msb.ldx.wms.wms.entity.Goodinfo">
+    insert into wms_goodinfo (snumber,sjiage,sheight) values (#{snumber},#{sjiage},#{sheight});
+</insert>
+</mapper>

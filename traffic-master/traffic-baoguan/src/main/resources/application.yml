@@ -1,0 +1,21 @@
+server:
+  port: 8666
+spring:
+  application:
+    name: traffic-baoguan
+  cloud:
+    nacos:
+      server-addr: 192.168.77.129:8848
+      username: nacos
+      password: nacos
+      discovery:
+        namespace: d19962d3-ff5c-4563-8556-8d17bc324cdd
+        group: czb-baoguan
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/baoguan?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&serverTimezone=Asia/Shanghai
+    password: root
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+

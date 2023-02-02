@@ -1,0 +1,10 @@
+com\msb\ldx\wms\wms\web\GoodController.class
+com\msb\ldx\wms\wms\service\GoodService.class
+com\msb\ldx\wms\wms\entity\Goodinfo.class
+com\msb\ldx\wms\wms\param\ResponseRepository.class
+com\msb\ldx\wms\wms\param\RequestParam.class
+com\msb\ldx\wms\wms\service\impl\GoodServiceimpl.class
+com\msb\ldx\wms\wms\WmsApplication.class
+com\msb\ldx\wms\wms\code\UntiCode.class
+com\msb\ldx\wms\wms\param\ResponseResult.class
+com\msb\ldx\wms\wms\mapper\GoodMapper.class

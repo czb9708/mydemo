@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="traffic-search" />
+        <module name="traffic-api-execption" />
+        <module name="traffic-api-resultCode" />
+        <module name="traffic-induce" />
+        <module name="traffic-storage" />
+        <module name="traffic-api-entity" />
+        <module name="traffic-transport" />
+        <module name="traffic-carry" />
+        <module name="traffic-pack" />
+        <module name="traffic-master" />
+        <module name="traffic-api-interface" />
+        <module name="traffic-mq" />
+        <module name="traffic-finance" />
+        <module name="traffic-baoguan" />
+        <module name="traffic-delivery" />
+        <module name="traffic-api-commons" />
+        <module name="traffic-utils" />
+        <module name="traffic-declare" />
+        <module name="traffic-wms" />
+        <module name="traffic-cache" />
+        <module name="traffic-system" />
+        <module name="traffic-customer" />
+        <module name="traffic-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo1" target="1.8" />
+      <module name="demo1.main" target="1.8" />
+      <module name="demo1.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="traffic-baoguan" options="" />
+      <module name="traffic-cache" options="-parameters" />
+      <module name="traffic-utils" options="-parameters" />
+      <module name="traffic-wms" options="-parameters" />
+    </option>
+  </component>
+</project>
